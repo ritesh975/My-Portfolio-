@@ -6,8 +6,8 @@ This portfolio showcases my skills, projects, certifications, education, and pro
 
 ## 🔗 Live Links
 
-- 🌍 **Live Portfolio:** YOUR_DEPLOYMENT_LINK
-- 💻 **GitHub Repository:** YOUR_GITHUB_REPOSITORY_LINK
+- 🌍 **Live Portfolio:**(https://ritesh-portfolioo.vercel.app/)
+- 💻 **GitHub Repository:**(https://github.com/ritesh975/My-Portfolio-/tree/main/RITESH-PORTFOLIO)
 
 ## ✨ Features
 
