@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ritesh Kumar Kasaudhan — MCA student, Data Analyst & Frontend Developer portfolio.">
+  <meta name="theme-color" content="#080c14">
+  <title>Ritesh Kumar Kasaudhan | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#home" aria-label="Ritesh home">
+        <span class="logo-fallback">R<span class="dot">.</span></span>
+      </a>
+
+      <nav class="nav-links" id="nav-links" aria-label="Primary navigation">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#experience">Experience</a>
+        <a class="nav-link" href="#certificates">Certificates</a>
+        <a class="nav-link" href="#education">Education</a>
+        <a class="nav-link private-nav" href="#private-documents"><i class="fa-solid fa-lock"></i> Private Documents</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="home" id="home">
+      <div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+      <div class="home-wrap">
+        <p class="hello reveal">Hello, I'm</p>
+        <h1 class="big-name reveal">Ritesh Kumar</h1>
+        <h2 class="tagline reveal">I turn <span class="cyan">data</span> into ideas.</h2>
+        <div class="role-line reveal">
+          <span>Data Analyst</span><span class="sep">•</span><span>Frontend Developer</span>
+        </div>
+        <p class="home-desc reveal">
+          MCA student focused on data analytics, machine learning and modern web development.
+          I build clean dashboards, useful data solutions and responsive web experiences.
+        </p>
+        <div class="home-btns reveal">
+          <a href="#projects" class="btn btn-cyan"><i class="fa-solid fa-code"></i> View Projects</a>
+          <!-- EDIT: keep resume file at documents/Ritesh_Kumar_Resume.pdf (replace the placeholder PDF with your real resume) -->
+          <a href="documents/Ritesh_Kumar_Resume.pdf" target="_blank" rel="noopener" class="btn btn-outline"><i class="fa-solid fa-file-arrow-down"></i> View Resume</a>
+          <a href="#contact" class="btn btn-outline"><i class="fa-regular fa-paper-plane"></i> Let's Connect</a>
+          <a href="https://github.com/ritesh975" target="_blank" rel="noopener" class="btn btn-circle" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+      <div class="scroll-line" aria-hidden="true"><span></span></div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-img reveal">
+            <div class="img-ring"></div>
+            <div class="img-box">
+              <img src="images/pic.jpeg" alt="Ritesh Kumar profile photo">
+            </div>
+            <div class="fresher-tag"><span class="pdot"></span> Open to opportunities</div>
+          </div>
+
+          <div class="reveal">
+            <p class="role-badge">About Me</p>
+            <h2 class="sec-title">Building with <span class="cyan">data & code.</span></h2>
+            <p class="para">
+              I'm Ritesh Kumar Kasaudhan, an MCA student with a strong interest in Data Analytics,
+              Machine Learning and Frontend Development. I enjoy converting raw information into
+              clear insights and turning ideas into polished digital products.
+            </p>
+            <p class="para">
+              My toolkit includes Python, SQL, Power BI, Excel, Pandas, NumPy, JavaScript,
+              HTML and CSS. I am continuously improving my skills through projects, certifications
+              and hands-on learning.
+            </p>
+
+            <div class="info-grid">
+              <div class="info-row"><span class="ilbl">Education</span><span class="ival">MCA — Invertis University</span></div>
+              <div class="info-row"><span class="ilbl">Previous Degree</span><span class="ival">BCA — UPRTOU Prayagraj</span></div>
+              <div class="info-row"><span class="ilbl">Focus</span><span class="ival">Data Analytics & Web Development</span></div>
+              <div class="info-row"><span class="ilbl">Location</span><span class="ival">Uttar Pradesh, India</span></div>
+            </div>
+
+            <div class="stats-row">
+              <div class="st"><span class="sn">10+</span><span class="sl">Projects & practice builds</span></div>
+              <div class="st"><span class="sn">10+</span><span class="sl">Certificates & achievements</span></div>
+              <div class="st"><span class="sn">∞</span><span class="sl">Curiosity to learn</span></div>
+            </div>
+            <div class="btn-row">
+              <a href="https://github.com/ritesh975" target="_blank" rel="noopener" class="btn btn-cyan"><i class="fa-brands fa-github"></i> GitHub Profile</a>
+              <a href="#contact" class="btn btn-outline"><i class="fa-regular fa-envelope"></i> Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="text-center sh">
+          <p class="sec-label">My Toolkit</p>
+          <h2 class="sec-title">Skills & <span class="cyan">Technologies</span></h2>
+          <p class="section-lead">Technologies I use to analyze data, build interfaces and create practical projects.</p>
+        </div>
+
+        <div class="skgrid">
+          <article class="skc reveal"><div class="ski"><i class="fa-brands fa-python"></i></div><h3 class="skn">Python</h3><p class="sks">Data analysis, automation and machine-learning workflows.</p><div class="sbw"><span class="sb skfill" style="width:88%"></span></div><span class="skill-percent">Advanced</span></article>
+          <article class="skc reveal"><div class="ski"><i class="fa-solid fa-database"></i></div><h3 class="skn">SQL / MySQL</h3><p class="sks">Queries, joins, aggregation, filtering and relational data analysis.</p><div class="sbw"><span class="sb skfill" style="width:84%"></span></div><span class="skill-percent">Strong</span></article>
+          <article class="skc reveal"><div class="ski"><i class="fa-solid fa-chart-column"></i></div><h3 class="skn">Power BI & Excel</h3><p class="sks">Dashboards, KPI tracking, PivotTables, VLOOKUP and reporting.</p><div class="sbw"><span class="sb skfill" style="width:86%"></span></div><span class="skill-percent">Strong</span></article>
+          <article class="skc reveal"><div class="ski"><i class="fa-solid fa-table"></i></div><h3 class="skn">Pandas & NumPy</h3><p class="sks">Cleaning, transformation, numerical analysis and EDA.</p><div class="sbw"><span class="sb skfill" style="width:82%"></span></div><span class="skill-percent">Strong</span></article>
+          <article class="skc reveal"><div class="ski"><i class="fa-brands fa-js"></i></div><h3 class="skn">HTML, CSS & JavaScript</h3><p class="sks">Responsive interfaces, DOM interactions and modern frontend basics.</p><div class="sbw"><span class="sb skfill" style="width:80%"></span></div><span class="skill-percent">Strong</span></article>
+          <article class="skc reveal"><div class="ski"><i class="fa-solid fa-brain"></i></div><h3 class="skn">Machine Learning</h3><p class="sks">Regression, classification, ANN/CNN basics and model evaluation.</p><div class="sbw"><span class="sb skfill" style="width:72%"></span></div><span class="skill-percent">Learning</span></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="text-center">
+          <p class="sec-label">Selected Work</p>
+          <h2 class="sec-title">Featured <span class="cyan">Projects</span></h2>
+          <p class="section-lead">A selection of projects that combine analytics, machine learning and frontend development.</p>
+        </div>
+
+        <!-- EDIT: for every project, replace the "#" demo link with your live/hosted link, and the repo link with that project's exact GitHub repo URL. -->
+        <div class="proj-grid">
+          <article class="proj-card reveal">
+            <div class="ptop"><div class="pico"><i class="fa-solid fa-chart-line"></i></div></div>
+            <h3>Superstore Sales Analytics</h3>
+            <p>Interactive Power BI dashboard for sales, profit, category performance, regional trends and KPI analysis.</p>
+            <div class="ptags"><span>Power BI</span><span>Excel</span><span>Dashboard</span></div>
+            <div class="pactions">
+              <a href="#" class="pbtn" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Demo</a>
+              <a href="https://github.com/ritesh975" class="pbtn" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> View Repo</a>
+            </div>
+          </article>
+
+          <article class="proj-card reveal">
+            <div class="ptop"><div class="pico"><i class="fa-solid fa-building-columns"></i></div></div>
+            <h3>Bank Loan Default Risk Analysis</h3>
+            <p>Data-driven analysis of loan and customer attributes to identify patterns, risk indicators and useful business insights.</p>
+            <div class="ptags"><span>Python</span><span>Pandas</span><span>Power BI</span></div>
+            <div class="pactions">
+              <a href="#" class="pbtn" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Demo</a>
+              <a href="https://github.com/ritesh975" class="pbtn" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> View Repo</a>
+            </div>
+          </article>
+
+          <article class="proj-card reveal">
+            <div class="ptop"><div class="pico"><i class="fa-solid fa-cloud-sun"></i></div></div>
+            <h3>Weather App</h3>
+            <p>Responsive weather application using a public weather API, with city search and live weather information.</p>
+            <div class="ptags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>API</span></div>
+            <div class="pactions">
+              <a href="#" class="pbtn" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Demo</a>
+              <a href="https://github.com/ritesh975" class="pbtn" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> View Repo</a>
+            </div>
+          </article>
+
+          <article class="proj-card reveal">
+            <div class="ptop"><div class="pico"><i class="fa-solid fa-car"></i></div></div>
+            <h3>Car Price Prediction</h3>
+            <p>Machine-learning regression project that prepares vehicle data and predicts estimated car prices.</p>
+            <div class="ptags"><span>Python</span><span>Scikit-learn</span><span>Regression</span></div>
+            <div class="pactions">
+              <a href="#" class="pbtn" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Demo</a>
+              <a href="https://github.com/ritesh975" class="pbtn" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> View Repo</a>
+            </div>
+          </article>
+
+          <article class="proj-card reveal">
+            <div class="ptop"><div class="pico"><i class="fa-solid fa-users"></i></div></div>
+            <h3>Social Media Analytics</h3>
+            <p>Dashboard concept for exploring Facebook and Instagram engagement, content performance and audience metrics.</p>
+            <div class="ptags"><span>Power BI</span><span>Analytics</span><span>KPI</span></div>
+            <div class="pactions">
+              <a href="#" class="pbtn" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Demo</a>
+              <a href="https://github.com/ritesh975" class="pbtn" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> View Repo</a>
+            </div>
+          </article>
+
+          <article class="proj-card reveal">
+            <div class="ptop"><div class="pico"><i class="fa-solid fa-camera-retro"></i></div></div>
+            <h3>Vimal Studio</h3>
+            <p>Modern booking website concept with responsive UI and a plan for Firebase-powered booking and data storage.</p>
+            <div class="ptags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Firebase</span></div>
+            <div class="pactions">
+              <a href="#" class="pbtn" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Demo</a>
+              <a href="https://github.com/ritesh975" class="pbtn" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> View Repo</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section experience" id="experience">
+      <div class="container">
+        <div class="text-center">
+          <p class="sec-label">Learning Journey</p>
+          <h2 class="sec-title">Experience & <span class="cyan">Training</span></h2>
+          <p class="section-lead">Hands-on learning, simulations, workshops and technical training.</p>
+        </div>
+
+        <div class="exp-grid">
+          <article class="exp-card reveal">
+            <div class="etop"><div class="eleft"><img src="images/Deloitte.jpg" alt="Deloitte certificate"></div><span class="etype remote">Simulation</span></div>
+            <h3>Data Analytics Job Simulation</h3><h4>Deloitte</h4><div class="edate"><i class="fa-regular fa-calendar"></i> Virtual experience</div>
+            <p>Worked through a practical data analytics simulation focused on business data and analytical thinking.</p>
+            <div class="etags"><span>Data Analytics</span><span>Business Insights</span></div>
+            <button type="button" class="view-btn js-view-img" data-img="images/Deloitte.jpg" data-caption="Deloitte — Data Analytics Job Simulation"><i class="fa-solid fa-eye"></i> View Certificate</button>
+          </article>
+
+          <article class="exp-card reveal">
+            <div class="etop"><div class="eleft"><img src="images/intership2.png" alt="Tata GenAI certificate"></div><span class="etype hybrid">Simulation</span></div>
+            <h3>GenAI Powered Data Analytics</h3><h4>Tata / Forage</h4><div class="edate"><i class="fa-regular fa-calendar"></i> Virtual experience</div>
+            <p>Explored data analytics workflows and the role of generative AI in solving practical business problems.</p>
+            <div class="etags"><span>GenAI</span><span>Analytics</span></div>
+            <button type="button" class="view-btn js-view-img" data-img="images/intership2.png" data-caption="Tata / Forage — GenAI Powered Data Analytics"><i class="fa-solid fa-eye"></i> View Certificate</button>
+          </article>
+
+          <article class="exp-card reveal">
+            <div class="etop"><div class="eleft"><img src="images/IBM.jpg" alt="IBM certificate"></div><span class="etype fulltime">Training</span></div>
+            <h3>Getting Started with Artificial Intelligence</h3><h4>IBM</h4><div class="edate"><i class="fa-regular fa-calendar"></i> Certification</div>
+            <p>Built foundational understanding of artificial intelligence concepts and applications.</p>
+            <div class="etags"><span>AI</span><span>Foundations</span></div>
+            <button type="button" class="view-btn js-view-img" data-img="images/IBM.jpg" data-caption="IBM — Getting Started with Artificial Intelligence"><i class="fa-solid fa-eye"></i> View Certificate</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATES -->
+    <section class="section certificates" id="certificates">
+      <div class="container">
+        <div class="text-center">
+          <p class="sec-label">Achievements</p>
+          <h2 class="sec-title">Certificates & <span class="cyan">Credentials</span></h2>
+          <p class="section-lead">Selected certificates from technical courses, simulations and university activities.</p>
+        </div>
+
+        <div class="cert-grid">
+          <article class="cert-card reveal"><div class="cimg"><img src="images/intership3.jpeg" alt="Virtual internship certificate"></div><div class="cbody"><h3>Virtual Internship Certificate</h3><p>Technical internship / training achievement.</p><button type="button" class="view-btn js-view-img" data-img="images/intership3.jpeg" data-caption="Virtual Internship Certificate"><i class="fa-solid fa-eye"></i> View</button></div></article>
+          <article class="cert-card reveal"><div class="cimg"><img src="images/Deloitte.jpg" alt="Deloitte Data Analytics certificate"></div><div class="cbody"><h3>Data Analytics Job Simulation</h3><p>Deloitte — Forage</p><button type="button" class="view-btn js-view-img" data-img="images/Deloitte.jpg" data-caption="Data Analytics Job Simulation — Deloitte / Forage"><i class="fa-solid fa-eye"></i> View</button></div></article>
+          <article class="cert-card reveal"><div class="cimg"><img src="images/AI.jpg" alt="AI certificate"></div><div class="cbody"><h3>Artificial Intelligence</h3><p>AI learning and certification achievement.</p><button type="button" class="view-btn js-view-img" data-img="images/AI.jpg" data-caption="Artificial Intelligence"><i class="fa-solid fa-eye"></i> View</button></div></article>
+          <article class="cert-card reveal"><div class="cimg"><img src="images/IBM.jpg" alt="IBM AI certificate"></div><div class="cbody"><h3>Getting Started with AI</h3><p>IBM Skills / learning credential.</p><button type="button" class="view-btn js-view-img" data-img="images/IBM.jpg" data-caption="Getting Started with AI — IBM Skills"><i class="fa-solid fa-eye"></i> View</button></div></article>
+          <article class="cert-card reveal"><div class="cimg"><img src="images/tcs_AI.jpg" alt="TCS certificate"></div><div class="cbody"><h3>AI / Data Analytics</h3><p>TCS — Certificate of Completion</p><button type="button" class="view-btn js-view-img" data-img="images/tcs_AI.jpg" data-caption="AI / Data Analytics — TCS"><i class="fa-solid fa-eye"></i> View</button></div></article>
+          <article class="cert-card reveal"><div class="cimg"><img src="images/bordroom.jpeg" alt="Boardroom Battle certificate"></div><div class="cbody"><h3>Boardroom Battle</h3><p>Invertis University participation certificate.</p><button type="button" class="view-btn js-view-img" data-img="images/bordroom.jpeg" data-caption="Boardroom Battle — Invertis University"><i class="fa-solid fa-eye"></i> View</button></div></article>
+          <article class="cert-card reveal"><div class="cimg"><img src="images/EY_Certificate.jpg" alt="EY certificate"></div><div class="cbody"><h3>Professional Skills Certificate</h3><p>EY / Microsoft learning credential.</p><button type="button" class="view-btn js-view-img" data-img="images/EY_Certificate.jpg" data-caption="Professional Skills Certificate — EY / Microsoft"><i class="fa-solid fa-eye"></i> View</button></div></article>
+          <article class="cert-card reveal"><div class="cimg"><img src="images/tejas.jpeg" alt="Tejas 2.0 certificate"></div><div class="cbody"><h3>Tejas 2.0</h3><p>Invertis University participation.</p><button type="button" class="view-btn js-view-img" data-img="images/tejas.jpeg" data-caption="Tejas 2.0 — Invertis University"><i class="fa-solid fa-eye"></i> View</button></div></article>
+          <article class="cert-card reveal"><div class="cimg"><img src="images/java.png" alt="Java certification test"></div><div class="cbody"><h3>Java Certification Test</h3><p>Programming course completion.</p><button type="button" class="view-btn js-view-img" data-img="images/java.png" data-caption="Java Certification Test"><i class="fa-solid fa-eye"></i> View</button></div></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="text-center">
+          <p class="sec-label">Academic Journey</p>
+          <h2 class="sec-title">Education & <span class="cyan">Academic Record</span></h2>
+          <p class="section-lead">My academic journey and qualifications. Detailed marksheets and identity documents are kept separately in the password-protected area.</p>
+        </div>
+
+        <div class="edu-grid">
+          <article class="edu-card reveal">
+            <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="edu-year">2025 – Present</div>
+            <h3>Master of Computer Applications (MCA)</h3>
+            <p class="edu-place">Invertis University, Bareilly</p>
+            <span class="edu-tag">Post Graduation</span>
+          </article>
+          <article class="edu-card reveal">
+            <div class="edu-icon"><i class="fa-solid fa-laptop-code"></i></div>
+            <div class="edu-year">2022 – 2025</div>
+            <h3>Bachelor of Computer Applications (BCA)</h3>
+            <p class="edu-place">UPRTOU, Prayagraj</p>
+            <span class="edu-tag">Graduation</span>
+          </article>
+          <article class="edu-card reveal">
+            <div class="edu-icon"><i class="fa-solid fa-school"></i></div>
+            <div class="edu-year">Senior Secondary</div>
+            <h3>Class 12th</h3>
+            <p class="edu-place">UP Board · 71.6% (as provided)</p>
+            <span class="edu-tag">Higher Secondary</span>
+          </article>
+          <article class="edu-card reveal">
+            <div class="edu-icon"><i class="fa-solid fa-book-open"></i></div>
+            <div class="edu-year">Secondary</div>
+            <h3>Class 10th</h3>
+            <p class="edu-place">UP Board · 76% (as provided)</p>
+            <span class="edu-tag">Secondary School</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRIVATE DOCUMENTS -->
+    <section class="section private-documents" id="private-documents">
+      <div class="container">
+        <div class="text-center">
+          <p class="sec-label">Protected Area</p>
+          <h2 class="sec-title">Private <span class="cyan">Documents</span></h2>
+          <p class="section-lead">Personal documents are hidden until the correct password is entered.</p>
+        </div>
+
+        <div class="private-gate" id="private-gate">
+          <div class="lock-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <h3>Private Documents are Locked</h3>
+          <p>Enter your password to view your personal document list.</p>
+          <form id="private-login-form" class="private-login">
+            <div class="password-wrap">
+              <i class="fa-solid fa-key"></i>
+              <input id="private-password" type="password" autocomplete="off" placeholder="Enter password" aria-label="Private documents password" required>
+              <button type="button" id="toggle-password" aria-label="Show password"><i class="fa-solid fa-eye"></i></button>
+            </div>
+            <button type="submit" class="btn btn-cyan"><i class="fa-solid fa-unlock"></i> Unlock Documents</button>
+            <p id="private-status" class="private-status" aria-live="polite"></p>
+          </form>
+        </div>
+
+        <div class="private-content" id="private-content" hidden>
+          <div class="private-header">
+            <div><span class="unlocked-badge"><i class="fa-solid fa-lock-open"></i> Unlocked</span><h3>My Personal Documents</h3><p>Keep the files inside <code>private-documents/</code> and update the file names below.</p></div>
+            <button type="button" class="btn btn-outline" id="lock-documents"><i class="fa-solid fa-lock"></i> Lock Again</button>
+          </div>
+          <h4 class="doc-group-title"><i class="fa-solid fa-file-pdf"></i> Documents (PDF)</h4>
+          <div class="doc-grid">
+            <div class="doc-card"><div class="doc-icon"><i class="fa-solid fa-id-card"></i></div><div class="doc-meta"><h4>Aadhaar Card</h4><span>PDF · Private</span></div><div class="doc-actions"><a href="private-documents/aadhaar.pdf" target="_blank" rel="noopener" class="doc-act" aria-label="View Aadhaar Card"><i class="fa-solid fa-eye"></i> View</a><a href="private-documents/aadhaar.pdf" download class="doc-act doc-act-dl" aria-label="Download Aadhaar Card"><i class="fa-solid fa-download"></i> Download</a></div></div>
+            <div class="doc-card"><div class="doc-icon"><i class="fa-solid fa-file-lines"></i></div><div class="doc-meta"><h4>Class 10 Result</h4><span>PDF · Private</span></div><div class="doc-actions"><a href="private-documents/class-10-result.pdf" target="_blank" rel="noopener" class="doc-act" aria-label="View Class 10 Result"><i class="fa-solid fa-eye"></i> View</a><a href="private-documents/class-10-result.pdf" download class="doc-act doc-act-dl" aria-label="Download Class 10 Result"><i class="fa-solid fa-download"></i> Download</a></div></div>
+            <div class="doc-card"><div class="doc-icon"><i class="fa-solid fa-file-lines"></i></div><div class="doc-meta"><h4>Class 12 Result</h4><span>PDF · Private</span></div><div class="doc-actions"><a href="private-documents/class-12-result.pdf" target="_blank" rel="noopener" class="doc-act" aria-label="View Class 12 Result"><i class="fa-solid fa-eye"></i> View</a><a href="private-documents/class-12-result.pdf" download class="doc-act doc-act-dl" aria-label="Download Class 12 Result"><i class="fa-solid fa-download"></i> Download</a></div></div>
+            <div class="doc-card"><div class="doc-icon"><i class="fa-solid fa-graduation-cap"></i></div><div class="doc-meta"><h4>BCA Result</h4><span>PDF · Private</span></div><div class="doc-actions"><a href="private-documents/bca-result.pdf" target="_blank" rel="noopener" class="doc-act" aria-label="View BCA Result"><i class="fa-solid fa-eye"></i> View</a><a href="private-documents/bca-result.pdf" download class="doc-act doc-act-dl" aria-label="Download BCA Result"><i class="fa-solid fa-download"></i> Download</a></div></div>
+          </div>
+
+          <!-- EDIT: put scanned photo/ID images here in the private-documents/images/ folder (kept separate from the PDFs above). -->
+          <h4 class="doc-group-title"><i class="fa-solid fa-image"></i> Photo / Scanned ID Documents</h4>
+          <div class="doc-grid">
+            <div class="doc-card"><div class="doc-icon"><i class="fa-solid fa-id-badge"></i></div><div class="doc-meta"><h4>Aadhaar — Front Photo</h4><span>Image · Private</span></div><div class="doc-actions"><button type="button" class="doc-act js-view-img" data-img="private-documents/images/aadhaar-front.jpg" data-caption="Aadhaar Card — Front"><i class="fa-solid fa-eye"></i> View</button><a href="private-documents/images/aadhaar-front.jpg" download class="doc-act doc-act-dl" aria-label="Download Aadhaar Front"><i class="fa-solid fa-download"></i> Download</a></div></div>
+            <div class="doc-card"><div class="doc-icon"><i class="fa-solid fa-id-badge"></i></div><div class="doc-meta"><h4>Aadhaar — Back Photo</h4><span>Image · Private</span></div><div class="doc-actions"><button type="button" class="doc-act js-view-img" data-img="private-documents/images/aadhaar-back.jpg" data-caption="Aadhaar Card — Back"><i class="fa-solid fa-eye"></i> View</button><a href="private-documents/images/aadhaar-back.jpg" download class="doc-act doc-act-dl" aria-label="Download Aadhaar Back"><i class="fa-solid fa-download"></i> Download</a></div></div>
+            <div class="doc-card"><div class="doc-icon"><i class="fa-solid fa-portrait"></i></div><div class="doc-meta"><h4>Passport Size Photo</h4><span>Image · Private</span></div><div class="doc-actions"><button type="button" class="doc-act js-view-img" data-img="private-documents/images/passport-photo.jpg" data-caption="Passport Size Photo"><i class="fa-solid fa-eye"></i> View</button><a href="private-documents/images/passport-photo.jpg" download class="doc-act doc-act-dl" aria-label="Download Passport Photo"><i class="fa-solid fa-download"></i> Download</a></div></div>
+          </div>
+
+          <div class="security-note"><i class="fa-solid fa-triangle-exclamation"></i><div><strong>Important:</strong> This is a frontend-only password gate. Do not publish Aadhaar or other sensitive documents on a public hosting service using this method. For real protection, use server-side authentication/private storage — see the "Firebase Authentication" note in README.md.</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="text-center">
+          <p class="sec-label">Get In Touch</p>
+          <h2 class="sec-title">Let's build something <span class="cyan">useful.</span></h2>
+          <p class="section-lead">Have a project, internship opportunity or collaboration in mind? Send a message.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="cinfo reveal">
+            <!-- EDIT: replace every "#" below with your real profile URL. -->
+            <div class="ci"><div class="ci-ico"><i class="fa-brands fa-linkedin-in"></i></div><div><span class="ci-l">LinkedIn</span><a class="ci-v" href="#" target="_blank" rel="noopener">linkedin.com/in/ritesh-kumar</a></div></div>
+            <div class="ci"><div class="ci-ico"><i class="fa-brands fa-github"></i></div><div><span class="ci-l">GitHub</span><a class="ci-v" href="https://github.com/ritesh975" target="_blank" rel="noopener">github.com/ritesh975</a></div></div>
+            <div class="ci"><div class="ci-ico"><i class="fa-solid fa-graduation-cap"></i></div><div><span class="ci-l">Education</span><span class="ci-v">MCA — Invertis University, Bareilly</span></div></div>
+            <div class="ci"><div class="ci-ico"><i class="fa-solid fa-location-dot"></i></div><div><span class="ci-l">Based in</span><span class="ci-v">Uttar Pradesh, India</span></div></div>
+            <div class="avail"><span class="pdot"></span> Available for internships & projects</div>
+
+            <!-- EDIT: update every href="#" with your actual profile links. -->
+            <div class="social-row">
+              <a href="#" target="_blank" rel="noopener" class="soc-ico" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="https://github.com/ritesh975" target="_blank" rel="noopener" class="soc-ico" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github"></i></a>
+              <a href="#" target="_blank" rel="noopener" class="soc-ico" aria-label="Instagram" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" target="_blank" rel="noopener" class="soc-ico" aria-label="LeetCode" title="LeetCode"><i class="fa-solid fa-code"></i></a>
+              <a href="#" target="_blank" rel="noopener" class="soc-ico" aria-label="HackerRank" title="HackerRank"><i class="fa-brands fa-hackerrank"></i></a>
+              <a href="#" target="_blank" rel="noopener" class="soc-ico" aria-label="Placement Profile" title="Placement Profile"><i class="fa-solid fa-briefcase"></i></a>
+            </div>
+          </div>
+
+          <form class="cform reveal" id="contact-form">
+            <div class="frow">
+              <div class="fg"><label for="fullname">Name <span>*</span></label><input id="fullname" name="fullname" type="text" placeholder="Your name" required></div>
+              <div class="fg"><label for="email">Email <span>*</span></label><input id="email" name="email" type="email" placeholder="you@example.com" required></div>
+              <div class="fg"><label for="mobile">Mobile</label><input id="mobile" name="mobile" type="tel" placeholder="+91 XXXXX XXXXX"></div>
+              <div class="fg"><label for="subject">Subject <span>*</span></label><input id="subject" name="subject" type="text" placeholder="Project / opportunity" required></div>
+              <div class="fg full"><label for="message">Message <span>*</span></label><textarea id="message" name="message" rows="6" placeholder="Tell me a little about your idea..." required></textarea></div>
+            </div>
+            <button type="submit" class="btn btn-cyan btn-full"><i class="fa-regular fa-paper-plane"></i> Send via Email</button>
+            <div id="form-status" class="fst" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container foot-inner">
+      <p class="ftxt">© <span id="year"></span> Ritesh Kumar Kasaudhan. Built with HTML, CSS & JavaScript.</p>
+      <div class="flinks">
+        <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/ritesh975" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="#" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" target="_blank" rel="noopener" aria-label="LeetCode"><i class="fa-solid fa-code"></i></a>
+        <a href="#" target="_blank" rel="noopener" aria-label="HackerRank"><i class="fa-brands fa-hackerrank"></i></a>
+        <a href="#" target="_blank" rel="noopener" aria-label="Placement Profile"><i class="fa-solid fa-briefcase"></i></a>
+        <a href="#home" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox used by "View" / "View Certificate" buttons across Experience, Certificates and Private Documents -->
+  <div class="lightbox" id="lightbox" hidden aria-hidden="true">
+    <button type="button" class="lightbox-close" id="lightbox-close" aria-label="Close preview"><i class="fa-solid fa-xmark"></i></button>
+    <figure class="lightbox-figure">
+      <img id="lightbox-img" src="" alt="">
+      <figcaption id="lightbox-caption"></figcaption>
+    </figure>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
